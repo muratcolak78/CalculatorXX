@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="434.0" prefWidth="320.0" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19" fx:controller="com.example.calculatorxx.CalculatorXXController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <HBox prefHeight="66.0" prefWidth="320.0">
+      <children>
+         <TextField fx:id="textField" alignment="CENTER_RIGHT" onAction="#onNumbersClick" onDragDetected="#onNumbersClick" prefHeight="58.0" prefWidth="288.0">
+            <font>
+               <Font size="24.0" />
+            </font>
+         </TextField>
+      </children>
+   </HBox>
+   <HBox prefHeight="55.0" prefWidth="239.0">
+      <children>
+         <Button fx:id="XX" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onOperatorClick" onDragDetected="#onOperatorClick" prefHeight="50.0" prefWidth="50.0" text="X²">
+            <HBox.margin>
+               <Insets left="15.0" />
+            </HBox.margin>
+            <font>
+               <Font name="System Bold" size="18.0" />
+            </font>
+         </Button>
+         <Button fx:id="perX" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onOperatorClick" onDragDetected="#onOperatorClick" prefHeight="50.0" prefWidth="50.0" text="\%X">
+            <HBox.margin>
+               <Insets left="15.0" />
+            </HBox.margin>
+            <font>
+               <Font name="System Bold" size="16.0" />
+            </font>
+         </Button>
+         <Button fx:id="XsquareRoot" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onOperatorClick" onDragDetected="#onOperatorClick" prefHeight="50.0" prefWidth="50.0" text="√X">
+            <HBox.margin>
+               <Insets left="15.0" />
+            </HBox.margin>
+            <font>
+               <Font name="System Bold" size="18.0" />
+            </font>
+         </Button>
+         <Button fx:id="division" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onOperatorClick" onDragDetected="#onOperatorClick" prefHeight="50.0" prefWidth="50.0" text="/">
+            <HBox.margin>
+               <Insets left="15.0" />
+            </HBox.margin>
+            <font>
+               <Font name="System Bold" size="18.0" />
+            </font>
+         </Button>
+      </children>
+   </HBox>
+   <HBox layoutX="30.0" layoutY="243.0" prefHeight="55.0" prefWidth="239.0">
+      <children>
+         <Button fx:id="button7" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onNumbersClick" onDragDetected="#onNumbersClick" prefHeight="50.0" prefWidth="50.0" text="7">
+            <HBox.margin>
+               <Insets left="15.0" />
+            </HBox.margin>
+            <font>
+               <Font name="System Bold" size="18.0" />
+            </font>
+         </Button>
+         <Button fx:id="button8" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onNumbersClick" onDragDetected="#onNumbersClick" prefHeight="50.0" prefWidth="50.0" text="8">
+            <HBox.margin>
+               <Insets left="15.0" />
+            </HBox.margin>
+            <font>
+               <Font name="System Bold" size="18.0" />
+            </font>
+         </Button>
+         <Button fx:id="button9" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onNumbersClick" onDragDetected="#onNumbersClick" prefHeight="50.0" prefWidth="50.0" text="9">
+            <HBox.margin>
+               <Insets left="15.0" />
+            </HBox.margin>
+            <font>
+               <Font name="System Bold" size="18.0" />
+            </font>
+         </Button>
+         <Button fx:id="multiplication" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onOperatorClick" onDragDetected="#onOperatorClick" prefHeight="50.0" prefWidth="50.0" text="*">
+            <HBox.margin>
+               <Insets left="15.0" />
+            </HBox.margin>
+            <font>
+               <Font name="System Bold" size="18.0" />
+            </font>
+         </Button>
+      </children>
+   </HBox>
+   <HBox layoutX="30.0" layoutY="280.0" prefHeight="55.0" prefWidth="239.0">
+      <children>
+         <Button fx:id="button4" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onNumbersClick" onDragDetected="#onNumbersClick" prefHeight="50.0" prefWidth="50.0" text="4">
+            <HBox.margin>
+               <Insets left="15.0" />
+            </HBox.margin>
+            <font>
+               <Font name="System Bold" size="18.0" />
+            </font>
+         </Button>
+         <Button fx:id="button5" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onNumbersClick" onDragDetected="#onNumbersClick" prefHeight="50.0" prefWidth="50.0" text="5">
+            <HBox.margin>
+               <Insets left="15.0" />
+            </HBox.margin>
+            <font>
+               <Font name="System Bold" size="18.0" />
+            </font>
+         </Button>
+         <Button fx:id="button6" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onNumbersClick" onDragDetected="#onNumbersClick" prefHeight="50.0" prefWidth="50.0" text="6">
+            <HBox.margin>
+               <Insets left="15.0" />
+            </HBox.margin>
+            <font>
+               <Font name="System Bold" size="18.0" />
+            </font>
+         </Button>
+         <Button fx:id="buttonMinus" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onOperatorClick" onDragDetected="#onOperatorClick" prefHeight="50.0" prefWidth="50.0" text="-">
+            <HBox.margin>
+               <Insets left="15.0" />
+            </HBox.margin>
+            <font>
+               <Font name="System Bold" size="18.0" />
+            </font>
+         </Button>
+      </children>
+   </HBox>
+   <HBox layoutX="30.0" layoutY="318.0" prefHeight="55.0" prefWidth="239.0">
+      <children>
+         <Button fx:id="button1" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onNumbersClick" onDragDetected="#onNumbersClick" prefHeight="50.0" prefWidth="50.0" text="1">
+            <HBox.margin>
+               <Insets left="15.0" />
+            </HBox.margin>
+            <font>
+               <Font name="System Bold" size="18.0" />
+            </font>
+         </Button>
+         <Button fx:id="button2" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onNumbersClick" onDragDetected="#onNumbersClick" prefHeight="50.0" prefWidth="50.0" text="2">
+            <HBox.margin>
+               <Insets left="15.0" />
+            </HBox.margin>
+            <font>
+               <Font name="System Bold" size="18.0" />
+            </font>
+         </Button>
+         <Button fx:id="button3" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onNumbersClick" onDragDetected="#onNumbersClick" prefHeight="50.0" prefWidth="50.0" text="3">
+            <HBox.margin>
+               <Insets left="15.0" />
+            </HBox.margin>
+            <font>
+               <Font name="System Bold" size="18.0" />
+            </font>
+         </Button>
+         <Button fx:id="plus" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onOperatorClick" onDragDetected="#onOperatorClick" prefHeight="50.0" prefWidth="50.0" text="+">
+            <HBox.margin>
+               <Insets left="15.0" />
+            </HBox.margin>
+            <font>
+               <Font name="System Bold" size="18.0" />
+            </font>
+         </Button>
+      </children>
+   </HBox>
+   <HBox layoutX="30.0" layoutY="355.0" prefHeight="55.0" prefWidth="239.0">
+      <children>
+         <Button fx:id="zero" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onNumbersClick" onDragDetected="#onNumbersClick" prefHeight="50.0" prefWidth="50.0" text="0">
+            <HBox.margin>
+               <Insets left="15.0" />
+            </HBox.margin>
+            <font>
+               <Font name="System Bold" size="18.0" />
+            </font>
+         </Button>
+         <Button fx:id="clear" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onCleanClick" onDragDetected="#onCleanClick" prefHeight="50.0" prefWidth="50.0" text="C">
+            <HBox.margin>
+               <Insets left="15.0" />
+            </HBox.margin>
+            <font>
+               <Font name="System Bold" size="18.0" />
+            </font>
+         </Button>
+         <Button fx:id="koma" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onNumbersClick" onDragDetected="#onNumbersClick" prefHeight="50.0" prefWidth="50.0" text=".">
+            <HBox.margin>
+               <Insets left="15.0" />
+            </HBox.margin>
+            <font>
+               <Font name="System Bold" size="18.0" />
+            </font>
+         </Button>
+         <Button fx:id="equals" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onEqualsClick" onDragDetected="#onEqualsClick" prefHeight="50.0" prefWidth="50.0" text="=">
+            <HBox.margin>
+               <Insets left="15.0" />
+            </HBox.margin>
+            <font>
+               <Font name="System Bold" size="18.0" />
+            </font>
+         </Button>
+      </children>
+   </HBox>
+</VBox>
